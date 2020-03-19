@@ -1,0 +1,247 @@
+html{cursor: url(../_images/cursor-collection-01.png), auto;}
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+
+} 
+a{cursor: url(../_images/cursor-collection-hover-01.png), auto;
+}
+ul {
+  list-style-type: none;
+    text-align: center;
+  margin: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+  padding: 0;
+border: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+font-size: 12px;
+    font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 14px 100px;
+    text-transform: uppercase;
+  text-decoration: none;
+}
+li:hover {
+    background-color: lightgray;}
+
+.title{
+    top: 40px;
+    left: 350px;
+    width: 1000px;
+    height: 107px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Anton, sans-serif; 
+}
+.one{
+    font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 48px;
+    position: absolute;
+    top: 125px;
+    left: 75px;
+    line-height: 60px;
+    background-color:#fff;
+    border:7px solid #ad7c64;    
+    height:50px;
+    border-radius:50%;
+    width:50px;
+    color: black;
+}
+
+.two{font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 48px;
+    position: absolute;
+    top: 275px;
+    left: 75px;
+    line-height: 60px;
+    background-color:#fff;
+    border:7px solid #eff1b5;    
+    height:50px;
+    border-radius:50%;
+    width:50px;
+}
+
+.three{
+    font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 48px;
+    position: absolute;
+    top: 425px;
+    left: 75px;
+    line-height: 60px;
+    background-color:#fff;
+    border:7px solid #B3BDE4;    
+    height:50px;
+    border-radius:50%;
+    width:50px;
+}
+
+.four{
+    font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 48px;
+    position: absolute;
+    top: 575px;
+    left: 75px;
+    line-height: 60px;
+    background-color:#fff;
+    border:7px solid #ec008c;    
+    height:50px;
+    border-radius:50%;
+    width:50px;
+}
+.one2{
+    font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    position: absolute;
+    top: 125px;
+    left: 810px;
+    line-height: 45px;
+    background-color:#fff;
+    border:7px solid #ad7c64;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+}
+.rec1{
+    font-family: serif;
+    font-size: 18px;
+    position: absolute;
+    width: 600px;
+    top: 200px;
+    left: 150px;
+}
+.two2{
+    font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    position: absolute;
+    top: 125px;
+    left: 1200px;
+    line-height: 45px;
+    background-color:#fff;
+    border:7px solid #eff1b5;   
+    height:40px;
+    border-radius:50%;
+    width:40px;
+}
+.rec2{
+    font-family: serif;
+    font-size: 18px;
+    position: absolute;
+    width: 600px;
+    top: 350px;
+    left: 150px;
+}
+
+.three2{
+    font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    position: absolute;
+    top: 460px;
+    left: 815px;
+    line-height: 45px;
+    background-color:#fff;
+    border:7px solid #B3BDE4;     
+    height:40px;
+    border-radius:50%;
+    width:40px;
+}
+.rec3{
+    font-family: serif;
+    font-size: 18px;
+    position: absolute;
+    width: 600px;
+    top: 500px;
+    left: 150px;
+}
+.four2{
+    font-family: 'Modak', cursive;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    position: absolute;
+    top: 460px;
+    left: 1200px;
+    line-height: 45px;
+    background-color:#fff;
+    border:7px solid #ec008c;    
+    height:40px;
+    border-radius:50%;
+    width:40px;
+}
+
+.rec4{
+    font-family: serif;
+    font-size: 18px;
+    position: absolute;
+    width: 600px;
+    top: 650px;
+    left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+.SimonNGarf{
+    position: absolute;
+    width: 400px;
+    left: 810px;
+    top: 110px;
+}
+.CrosbyNash{
+    position: absolute;
+    width: 400px;
+    left: 1200px;
+    top:110px;
+}
+.DreamWDean{
+    position: absolute;
+    width: 400px;
+    left: 820px;
+    top: 460px;
+}
+.MagMysTour{
+    position: absolute;
+    width: 400px;
+    left: 1200px;
+    top: 460px;
+}

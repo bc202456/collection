@@ -1,0 +1,143 @@
+html{cursor: url(../_images/cursor-collection-01.png), auto;}
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+a{cursor: url(../_images/cursor-collection-hover-01.png), auto;
+}
+*{box-sizing: border-box;}
+
+ul {
+  list-style-type: none;
+    text-align: center;
+  margin: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+  padding: 0;
+border: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+font-size: 12px;
+    font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 14px 100px;
+    text-transform: uppercase;
+  text-decoration: none;
+}
+li:hover {
+    background-color: lightgray;}
+
+header{
+    margin-top: 70px;
+width: 1683px;
+height: 107px;
+text-align: center;
+font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+color: #000000;
+text-transform: uppercase;
+    letter-spacing: 5px;
+opacity: 1;
+}
+
+p{
+font-family: serif;
+border: none;
+font-size: 18px;
+top: 175px;
+left: 599px;
+width: 500px;
+height: 483px;
+    position:absolute;
+    font-weight: 500;
+    background: none;
+text-align: left;
+letter-spacing: 0.43px;
+color: #2C2C2C;
+opacity: 1;
+
+}
+.DreamWDean{
+  overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    top: 500px;
+    left: 925px;
+height: 400px;
+width:400px;
+    display: inline-block;
+    position: absolute;
+}
+.DreamWDean:hover {
+    transform: rotate(285deg);
+    -webkit-transform: rotate(285deg);}
+
+.MagMysTour{
+ overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    left:1155px;
+width: 500px;
+    position: absolute;
+    display: inline-block;
+}
+.MagMysTour:hover 
+{transform: rotate(285deg);
+    -webkit-transform: rotate(285deg);}
+
+.SimonNGarf{
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+left:10px;
+width: 500px;
+    height: 500px;
+    position: absolute;
+    display: inline-block;
+
+}
+.SimonNGarf:hover{transform: rotate(-285deg);
+    -webkit-transform: rotate(-285deg);
+    
+}
+.CrosbyNash{
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+left: 355px;
+    top: 500px;
+width: 400px;
+    position: absolute;
+    display: inline-block;
+height: 400px;
+}
+.CrosbyNash:hover{
+    transform: rotate(-285deg);
+    -webkit-transform: rotate(-285deg);}
+body { 
+    animation: fadeInAnimation ease 3s 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 

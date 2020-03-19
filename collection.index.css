@@ -1,0 +1,36 @@
+html { background-image:url('../_images/Record%20Player.gif'); 
+  background-size:cover;
+    background-position: left;
+cursor: url(../_images/cursor-collection-01.png), auto;
+    
+}
+a{cursor: url(../_images/cursor-collection-hover-01.png), auto;
+}
+.content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)}
+
+.button1{
+    color:#B5801B;
+    font-family: 'Anton', sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+    background: none;
+    border: 0;
+    text-align:center;
+    letter-spacing: 5.22px;
+    color: #B5801B;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;}
+
+a{outline:none;}
+
+.button1:hover{
+    color:#AF4F28;}
+
+.button1:visited{
+    color:#B5801B;
+}
